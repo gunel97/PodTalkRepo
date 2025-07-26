@@ -6,9 +6,7 @@ namespace _260725PodTalk.Models
     {
         public List<Speaker> Speakers { get; set; } = [];
         public List<Topic> Topics { get; set; } = [];
-        public List<Profession> Professions { get; set; } = [];
         public List<Episode> Episodes { get; set;} = [];
-        public List<SpeakerProfession> SpeakerProfessions { get; set; } = [];
 
     }
 }

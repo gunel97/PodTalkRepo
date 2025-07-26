@@ -34,8 +34,13 @@
 
     -->
 </head>
-
 <body>
+
+    <!-- HEADER START -->
+    @await Component.InvokeAsync("Header");
+
+    <!-- HEADER END -->
+
             @RenderBody()
 
 

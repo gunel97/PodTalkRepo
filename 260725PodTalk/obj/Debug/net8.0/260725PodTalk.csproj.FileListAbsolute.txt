@@ -144,3 +144,4 @@ C:\Users\Lenovo\source\repos\260725PodTalk\260725PodTalk\obj\Debug\net8.0\refint
 C:\Users\Lenovo\source\repos\260725PodTalk\260725PodTalk\obj\Debug\net8.0\260725PodTalk.pdb
 C:\Users\Lenovo\source\repos\260725PodTalk\260725PodTalk\obj\Debug\net8.0\260725PodTalk.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\260725PodTalk\260725PodTalk\obj\Debug\net8.0\ref\260725PodTalk.dll
+C:\Users\Lenovo\source\repos\260725PodTalk\260725PodTalk\obj\Debug\net8.0\260725PodTalk.sourcelink.json

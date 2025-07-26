@@ -3,6 +3,7 @@
     public class Episode : BaseEntity
     {
         public string Title { get; set; } = string.Empty;
+        public string Description { get; set; }=string.Empty;
         public int Duration { get; set; }
         public string CoverImageUrl { get; set; } = null!;
         public string RecordMp3Path { get; set; } = null!;
