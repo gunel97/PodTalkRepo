@@ -12,5 +12,8 @@ namespace _260725PodTalk.DataContext
         public DbSet<Profession> Professions { get; set; }
         public DbSet<Topic> Topics { get; set; }
         public DbSet<SpeakerProfession> SpeakerProfessions { get; set; }
+        public DbSet<Social> Socials { get; set; }
+        public DbSet<Bio> Bios { get; set; }
+
     }
 }

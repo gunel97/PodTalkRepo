@@ -208,7 +208,8 @@
                     </div>
                 </div>
 
-                @foreach (var episode in episodes)
+            @await Component.InvokeAsync("Episode");
+@*                @foreach (var episode in episodes)
                 {
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-full">
@@ -266,7 +267,7 @@
                         </div>
                     </div>
                 }
-
+ *@
             </div>
         </div>
     </section>

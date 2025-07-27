@@ -1,7 +1,6 @@
 ﻿@{
     EpisodeViewModel model = Model;
     var episode = model.Episode;
-    var relatedEpisodes = model.RelatedEpisodes;
 }
 
 <main>
@@ -108,7 +107,8 @@
                     </div>
                 </div>
 
-                @foreach (var item in relatedEpisodes)
+                @await Component.InvokeAsync("Episode");
+                @* @foreach (var item in relatedEpisodes)
                 {
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-full">
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                 }
-
+ *@
             </div>
         </div>
     </section>
