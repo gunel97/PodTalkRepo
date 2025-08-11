@@ -1,5 +1,5 @@
 ﻿@{
-    EpisodeViewModel model = Model;
+    EpisodeDetailsViewModel model = Model;
     var episode = model.Episode;
 }
 
@@ -107,7 +107,8 @@
                     </div>
                 </div>
 
-                @await Component.InvokeAsync("Episode");
+                <partial name="_EpisodePartial" model="@Model.RelatedEpisodes"></partial>
+               @*  @await Component.InvokeAsync("Episode"); *@
                 @* @foreach (var item in relatedEpisodes)
                 {
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">

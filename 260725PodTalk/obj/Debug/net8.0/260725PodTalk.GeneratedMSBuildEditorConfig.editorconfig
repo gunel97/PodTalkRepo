@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _260725PodTalk
 build_property.RootNamespace = _260725PodTalk
@@ -22,6 +30,10 @@ build_property.EnableCodeStyleSeverity =
 
 [C:/Users/Lenovo/source/repos/260725PodTalk/260725PodTalk/Views/Episode/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/260725PodTalk/260725PodTalk/Views/Episode/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/source/repos/260725PodTalk/260725PodTalk/Views/Home/Index.cshtml]
@@ -46,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Lenovo/source/repos/260725PodTalk/260725PodTalk/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/source/repos/260725PodTalk/260725PodTalk/Views/Shared/_EpisodePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcGlzb2RlUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/source/repos/260725PodTalk/260725PodTalk/Views/Shared/_ValidationScriptsPartial.cshtml]

@@ -1,0 +1,61 @@
+﻿@model List<Episode>
+
+@foreach (var item in Model)
+{
+    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+        <div class="custom-block custom-block-full">
+            <div class="custom-block-image-wrap">
+                <a href="detail-page.html">
+                    <img src="~/images/@item.CoverImageUrl" class="custom-block-image img-fluid" alt="">
+                </a>
+            </div>
+
+            <div class="custom-block-info">
+                <h5 class="mb-2">
+                    <a asp-controller="episode" asp-action="details" asp-route-id="@item.Id">
+                        @item.Title
+                    </a>
+                </h5>
+
+                <div class="profile-block d-flex">
+                    <img src="~/images/@item.Speaker.ImageUrl" class="profile-block-image img-fluid" alt="">
+
+                    <p>
+                        @item.Speaker.Name
+                        @foreach (var sp in item.Speaker.SpeakerProfessions)
+                        {
+                            <strong>@sp.Profession?.Title</strong>
+                        }
+                    </p>
+                </div>
+
+                <p class="mb-0">@item.Description</p>
+
+                <div class="custom-block-bottom d-flex justify-content-between mt-3">
+                    <a href="#" class="bi-headphones me-1">
+                        <span>@(item.ListeningCount / 1000)k</span>
+                    </a>
+
+                    <a href="#" class="bi-heart me-1">
+                        <span>@(item.LikeCount / 1000)k</span>
+                    </a>
+
+                    <a href="#" class="bi-chat me-1">
+                        <span>@(item.CommentCount / 1000)k</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="social-share d-flex flex-column ms-auto">
+                <a href="#" class="badge ms-auto">
+                    <i class="bi-heart"></i>
+                </a>
+
+                <a href="#" class="badge ms-auto">
+                    <i class="bi-bookmark"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+}
+

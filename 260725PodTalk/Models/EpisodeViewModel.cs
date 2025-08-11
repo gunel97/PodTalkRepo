@@ -4,7 +4,7 @@ namespace _260725PodTalk.Models
 {
     public class EpisodeViewModel
     {
-        public List<Episode> RelatedEpisodes { get; set; } = [];
-        public Episode? Episode { get; set; }
+        public List<Episode> TrendingEpisodes { get; set; } = [];
+        public List<Episode> Episodes { get; set; } = [];
     }
 }
